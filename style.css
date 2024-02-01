@@ -14,5 +14,20 @@ height: 65vh;
 background-image: url(images/bannercake.jpg);
 background-size: cover;
 background-position:69%;
-
+border-radius: 10px;
+position: fixed;
+margin-top:100px;
+}
+.baner-text{
+padding-top: 100px;
+margin-left: 50px;
+}
+.banner-text h2{
+    letter-spacing:  10px;
+    font-weight:bold;
+    font-size: 25px;
+}
+.banner-text h1{
+margin-left: 5px;
+font-size: 100px;
 }
