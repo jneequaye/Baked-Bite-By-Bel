@@ -1,18 +1,18 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-
-
-
-
-html {
-    font-size: 16px;
+body {background-color:rgb(252, 236, 239);}
     
+.date{
+color: rgb(187, 35, 35);
 }
 
-body {width: 100%;
-    min-height: 100vh;
-    border: 5px dashed pink;
+
+#MainTitle{
+font-style: bold;
+color: brown;
+font-family: 'BioRhyme', serif;
+background-color: rgb(255, 222, 220);
+
 }
+
+h1 {
+
+    color: white;}
