@@ -1,8 +1,37 @@
-body {background-color:rgb(252, 236, 239);}
+
+
+body{
     
+    background-color: rgb(250, 244, 245);
+    
+
+}
+
+
+div.a {
+    text-align: center;
+  }
+   
+.index-occasion-flex {
+
+display: flex;
+justify-content: center;
+align-items: center;
+column-gap: 60px;
+}
+
+
+.wrapper-style {
+    width: 1000px;
+    margin:0 auto;
+}
+
+
+
 .date{
 color: rgb(187, 35, 35);
 }
+
 
 
 #MainTitle{
@@ -15,4 +44,29 @@ background-color: rgb(255, 222, 220);
 
 h1 {
 
-    color: white;}
+    color: rgb(255, 255, 255);}
+
+    .flex-container {
+        display: flex;
+      }
+      
+  .flex-container > div {
+  background-color:rgb(255, 255, 255);
+  margin: auto;
+  padding: 20px;
+  }
+
+    #Image1 {
+        height:50%;
+        width: 50%;
+      }
+      
+      #MainText {
+        font-family: Arial;
+      }
+      
+      h2 {
+
+        color:white;
+    }
+
