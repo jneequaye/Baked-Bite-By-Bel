@@ -2,8 +2,21 @@
 
 body{
     
-    background-color: rgb(250, 244, 245);
-    
+  margin: 0px;
+  padding: 0px;
+
+  
+}
+
+.background
+
+{
+  width: 100%;
+  height: 100vh;
+  background-image:url(bakedbite.jpg);
+  background-repeat: no no-repeat;
+  background-size: cover;
+  background-position: center;
 
 }
 
