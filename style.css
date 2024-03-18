@@ -4,26 +4,34 @@ body {
   margin: 0px;
 }
 
-main{
-  margin-left: 20px;
-  margin-right: 20px;
-}
 
 *{
   box-sizing: border-box;
 }
 
-.column {
 
-  float:left;
-  width: 20%;
-  padding:5px;
+.main{
+  margin-left: 120px;
 }
 
-.row :after{
-content: "";
-display: table;
-clear: both;
+.box{
+  display: block;
+  float: left;
+  width:20%;
+  padding: 10px;
+  padding-left: 12px;
+}
+
+.allproducts img{
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+.allproducts a:hover{
+  transform: scale(2,2);
+  transition: .3s transform;
+  border-radius: 5px;
 }
 
 .navbar ul{
@@ -35,6 +43,8 @@ clear: both;
   overflow: hidden;
   text-align: center;
 }
+
+
 
 .navbar a{
 color: white;
@@ -56,7 +66,40 @@ text-align: center;
 
 .navbar li{
 display:inline-block;
+
 }
+
+.navbar ul li ul{
+  display:none;
+  position:absolute;
+  background-color:rgb(231, 158, 0);
+  padding: 10px;
+  border-radius:0px 0px 4px 4px;
+  } 
+
+
+  .navbar ul li:hover ul{
+    display:block;
+  }
+
+
+  .navbar ul li ul li{
+    width:180px;
+    border-radius:4px;
+
+    
+    
+    } 
+
+  .navbar ul li ul li a{
+    padding: 8px 14px;
+    
+    } 
+
+
+    .navbar ul li ul li a:hover{
+      background-color: f3f3f3;
+      } 
 
 div.a {
     text-align: center;
@@ -82,7 +125,6 @@ div.a {
   
    
 .index-occasion-flex {
-
 display: flex;
 justify-content: center;
 align-items: center;
