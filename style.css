@@ -136,10 +136,14 @@ background-color: rgb(255, 222, 220);
 
 h1 {
 
-    color: rgb(255, 255, 255);}
+    color: rgb(255, 255, 255);
+   
+    }
+    
 
     .flex-container {
         display: flex;
+        
       }
       
   .flex-container > div {
@@ -152,13 +156,18 @@ h1 {
         width: 50%;
       }
       
-      #MainText {
-        font-family: Arial;
-      }
+      h1 .great-vibes-regular {
+          font-family: "Great Vibes", cursive;
+          font-weight: 400;
+          font-style: normal;
+         }
+        
+      
       
       h2 {
 
         color:white;
+        text-align: center;
       }
        
       input[type=text], select {
@@ -197,3 +206,5 @@ h1 {
         margin-left: 0;
         margin-right: 0;
     }
+
+    
