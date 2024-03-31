@@ -9,7 +9,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@600&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  
+    <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    
+  <script>
+    $( function() {
+      $( "#accordion" ).accordion();
+    } );
+    </script>
+    
     <style>
 
         *{
@@ -19,6 +30,7 @@
 
 
 @media (max-width: 1019px) {
+   
     .container-1{width:90%;}
 }
 
@@ -28,10 +40,10 @@
 
 .flex-container-1>div {
   background-color: #f1f1f1;
-  width: 100px;
+  width: 50px;
   margin: 10px;
   text-align: center;
-  line-height: 40px;
+  line-height: 30px;
   font-size: 30px;
 }
 
@@ -45,16 +57,19 @@
 
 .flex-container-2{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: rgb(16, 108, 184);
     color: #f1f1f1;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 30px;
-    padding: 30px;
+   margin: 4px;
+   padding: 20px;
 }
 
 
     </style>
+
+
+
 </head>
 <body>
   
@@ -76,28 +91,103 @@
 
 
 <div class="flex-container-1">
-    <div style="flex: 1"  class="StackMe"><p>re you someone who loves finding and discovering new words?
-        Are you a board game enthusiast?</p></div>
-    <div style="flex: 1" class="StackMe"><p>using percentages t will help you both with word discovery, and as
-        a reference tool, you and your playmates can use as
-        a way to settle disputes about the validity of anygrow</p></div>
-    <div style="flex: 1" class="StackMe"><p>they are responsiv</p></div>
+    <div style="flex: 1"  class="StackMe"><img src="images/cake1.jpg" width="200" height="200"><p>Blueberry</p></div>
+    <div style="flex: 1" class="StackMe"><img src="images/cake2.jpg" width="200" height="200"><p>Rasberry</p></div>
+    <div style="flex: 1" class="StackMe"><img src="images/cake3.jpg" width="200" height="200"><p>Mango</p></div>
+    <div style="flex: 1" class="StackMe"><img src="images/cake4.jpg" width="200" height="200"><p>Mango</p></div>
+   
 
 </div> 
 
-<div class="flex-container-2"
-<div class="StackMe" style="flex-grow: 2;">
-<p>
-It will help you both with word discovery, and as
+
+<div class="flex-container-1">
+    <div style="flex: 1"  class="StackMe"><img src="images/cake5.jpg" width="200" height="200"><p>Vanilla</p></div>
+    <div style="flex: 1" class="StackMe"><img src="images/cake6.jpg" width="200" height="200"><p>Creamy</p></div>
+    <div style="flex: 1" class="StackMe"><img src="images/cake7.jpg" width="200" height="200"><p>Chia Seed</p></div>
+    <div style="flex: 1" class="StackMe"><img src="images/cake8.jpg" width="200" height="200"><p>Pineapple</p></div>
+   
+
+</div> 
+
+<div class="flex-container-2">
+<div>
+<p>It will help you both with word discovery, and as
     a reference tool, you and your playmates can use as
-    a way to settle disputes about the validity of any particular word.</p>
+    a way to settle disputes about the validity of any particular word.</p></div>
+
+
+    
 
 </div>
 
+<div class="flex-container-2">
+<p>It will help you both with word discovery, and as
+    a reference tool, you and your playmates can use as a way to settle disputes about the validity of any particular word.</p></div>
+
+
+    
+
 </div>
 
+<div class="wrapper-style .index-occasion-flex">
+<div id="accordion">
+    <h3>Anniversary Section</h3>
+    <div>
+      <p>
+        Yum! This place has THE BEST buttercream frosting anywhere!! Went to
+        the open house today and tried out some of their new goodies!
+        The polvorones are excellent not to
+        mention the butter cookies! If you haven’t been….
+        RUN to The Cake Shop and my girls there will take care of you!!!
+      </p>
+    </div>
+    <h3>Graduation Section</h3>
+    <div>
+      <p>
+        I needed a personalized cake on very short notice for my cousin’s
+        step-son’s birthday. Not only did I receive a very delicious,
+        inexpensive cake…the staff went above and beyond to make it happen.
+        The party was a success and all of the kids loved the cake.
+        Thanks to the staff for saving the day! I highly recommend this place!
+        Scott G.
+      </p>
+    </div>
+    <h3>Birthday Section</h3>
+    <div>
+      <p>
+        The Cake Shop is awesome they have made me more then 10 cakes for all my cake smashes.
+        My little clients love the cakes and the parents to when the child doesn’t finish it
+        the parents are able to take the cake home so they know where I buy the cakes.
+        They haven’t disappointed me yet and they are spot on with the designs that I bring them for my sessions!
+      </p>
+      <ul>
+        <li>List item one</li>
+        <li>List item two</li>
+        <li>List item three</li>
+      </ul>
+    </div>
+    <h3>Weddings Section</h3>
+    <div>
+      <p>
+        We always get our cakes from The Cake Shop. Love the taste and the cakes always look amazing.
+        My granddaughter’s Barbie birthday cake today looked fabulous. Thank you so much!!
+        Mary R.
+      </p>
+      <p>
+        I got to experience The Cake Shop will planning my wedding. While the wedding did not go through,
+        the staff was incredibly professional to offer the deposit in the form of a gift card to be used later.
+        This is EXACTLY what would make me stay with this business and refer them to everyone I know.
+        Companies that do the right thing and understand life happens are the kind of companies that are perfect
+        examples of what caring about customers is all about.
+        I can’t wait to get more from them. Can I also say that their Cookies and Creme cake is INCREDIBLE!!!!.
+      </p>
+    </div>
+  </div>
+  </body>
 
-
+<footer>   
+    © 2024. Baked-Bites-By-Bel Cakes. All Rights Reserved
+</footer>
 
 </body>
 </html>
