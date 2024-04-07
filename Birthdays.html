@@ -43,15 +43,22 @@
   width: 50px;
   margin: 10px;
   text-align: center;
-  line-height: 30px;
+  line-height: 12px;
   font-size: 30px;
 }
+
+.flex-container-1>div :hover{
+ transform: scale(1.3);
+ z-index:2;
+ transition: 2s ease
+}
+
 
 .flex-container-1{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-    background-color: rgb(243, 240, 54);
+    background-color: rgb(255, 255, 255);
     width: auto;
 }
 
@@ -60,7 +67,7 @@
     flex-direction: column;
     background-color: rgb(16, 108, 184);
     color: #f1f1f1;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
    margin: 4px;
    padding: 20px;
 }
@@ -76,25 +83,32 @@
     <div class="wrapper-style .index-occasion-flex">
     <img src="images/newcheesechocolate.jpg">
 
-<div>
-    <nav class="navbar">
-<ul>
-    <li><img class="logo-img" src="images/bbbblogo.png" alt="logo image" weight="80" height="80"></li>
-   <li><a href="index.html">HOME</a></li>
-   <li><a href="allproducts.html">ALL PRODUCTS</a></li>
-   <li><a href="Occasions.html">OCCASIONS</a></li>
-   <li><a href="about.html">ABOUT US</a></li>
-   <li><a href="contact.html">CONTACT</a></li>
-</ul>
-</nav>
-</div>
+    <div>
+      <nav class="navbar"> 
+          <ul>
+              <li><img class="logo-img" src="images/bbbblogo.png" alt="logo image" weight="80" height="80"></li> 
+             <li><a href="index.html">HOME</a></li>
+             <li><a href="allproducts.html">ALL PRODUCTS</a></li>
+             <li><a href="occasions.html">OCCASIONS</a>
+          <ul>
+              <li> <a href="Birthdays.html">Birthdays</a></li>
+              <li> <a href="specialoccasion.html">Special Occasions</a></li>
+              <li> <a href="weddings.html">Weddings</a></li>   
+          </ul>
+          </li>
+             <li><a href="about.html">ABOUT US</a></li>
+             <li><a href="contact.html">CONTACT</a></li>
+            
+          </ul>
+          </nav>
+  </div>
 
 
 <div class="flex-container-1">
     <div style="flex: 1"  class="StackMe"><img src="images/cake1.jpg" width="200" height="200"><p>Blueberry</p></div>
     <div style="flex: 1" class="StackMe"><img src="images/cake2.jpg" width="200" height="200"><p>Rasberry</p></div>
-    <div style="flex: 1" class="StackMe"><img src="images/cake3.jpg" width="200" height="200"><p>Mango</p></div>
-    <div style="flex: 1" class="StackMe"><img src="images/cake4.jpg" width="200" height="200"><p>Mango</p></div>
+    <div style="flex: 1" class="StackMe"><img src="images/cake3.jpg" width="200" height="200"><p>Chocolate</p></div>
+    <div style="flex: 1" class="StackMe"><img src="images/cake15.jpg" width="200" height="200"><p>Mango</p></div>
    
 
 </div> 
@@ -103,9 +117,18 @@
 <div class="flex-container-1">
     <div style="flex: 1"  class="StackMe"><img src="images/cake5.jpg" width="200" height="200"><p>Vanilla</p></div>
     <div style="flex: 1" class="StackMe"><img src="images/cake6.jpg" width="200" height="200"><p>Creamy</p></div>
-    <div style="flex: 1" class="StackMe"><img src="images/cake7.jpg" width="200" height="200"><p>Chia Seed</p></div>
+    <div style="flex: 1" class="StackMe"><img src="images/cake18.jpg" width="200" height="200"><p>Chia Seed</p></div>
     <div style="flex: 1" class="StackMe"><img src="images/cake8.jpg" width="200" height="200"><p>Pineapple</p></div>
    
+
+</div> 
+
+<div class="flex-container-1">
+  <div style="flex: 1"  class="StackMe"><img src="images/cake9.jpg" width="200" height="200"><p>Vanilla</p></div>
+  <div style="flex: 1" class="StackMe"><img src="images/cake10.jpg" width="200" height="200"><p>Creamy</p></div>
+  <div style="flex: 1" class="StackMe"><img src="images/cake11.jpg" width="200" height="200"><p>Chia Seed</p></div>
+  <div style="flex: 1" class="StackMe"><img src="images/cake12.jpg" width="200" height="200"><p>Pineapple</p></div>
+ 
 
 </div> 
 

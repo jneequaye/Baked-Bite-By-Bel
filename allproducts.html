@@ -13,35 +13,37 @@
 }
 
 
-.container{
-width: 100%;
-padding: 15px;
-margin: 20px auto;
-display:flex;
-flex-direction: row;
-justify-content: center;
+.container-1{width:90%;}
+
+
+.StackMe > div {
+    flex:100%;
 }
 
-.box{
-width: 200px;
-margin:0 5px;
-box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
-transition:2s;
+.flex-container-1>div {
+  background-color: white;
+  width: 50px;
+  margin: 10px;
+  text-align: center;
+  line-height: 12px;
+  font-size: 30px;
+}
+
+.flex-container-1>div :hover{
+ transform: scale(1.3);
+ z-index:2;
+ transition: 2s ease
 }
 
 
-.box img{
-display: block;
-width: 100%;
-border: radius px;
-align-self: center;
+.flex-container-1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    background-color: white;
+    width: auto;
 }
 
-
-.box:hover{
-transform: scale(1.3);
-z-index:2;
-}
 
       </style>
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -79,62 +81,44 @@ z-index:2;
 
 
 <div class="b">
-    <p>Here at Baked-Bites-By-Bel, cooking and baking are all about creating something together and sharing the love. We carry this tradition into every delicious hand-made Baked-Bites-By-Bel. Each cake is baked with the freshest ingredients and carefully packed by hand. We truly believe in sharing a taste from San Antonio with everyone. So, enjoy a slice of love, from our kitchen to yours. We have a variety of flavor assortments or you can customize your own..<a href="allproducts.html"> View all our Products</a></p>
+    <p>Here at Baked-Bites-By-Bel, cooking and baking are all about creating something together
+        and sharing the love. We carry this tradition into every delicious hand-made Baked-Bites-By-Bel.
+        Each cake is baked with the freshest ingredients and carefully packed by hand. We truly believe
+        in sharing a taste from San Antonio with everyone. So, enjoy a slice of love, from our kitchen to yours.
+        We have a variety of flavor assortments or you can customize your own..<a href="allproducts.html"> View all our Products</a></p>
     </div>
 
+    <div class="wrapper-style .index-occasion-flex">
 
+    <div class="flex-container-1">
+        <div style="flex: 1"  class="StackMe"><img src="images/cake1.jpg" width="200" height="200"></div>
+        <div style="flex: 1" class="StackMe"><img src="images/cake2.jpg" width="200" height="200"></div>
+        <div style="flex: 1" class="StackMe"><img src="images/cake3.jpg" width="200" height="200"></div>
+        <div style="flex: 1" class="StackMe"><img src="images/cake4.jpg" width="200" height="200"></div>
 
-
-<div class="wrapper-style .index-occasion-flex">
-    
-    <div class="container">
-        <div class="box">
-        <img src="images/cake5.jpg">
-    </div>
-
-    <div class="box">
-        <img src="images/cake6.jpg">
-    </div>
-
-    <div class="box">
-        <img src="images/cake7.jpg">
-        </div>
-        
-    <div class="box">
-            <img src="images/cake8.jpg">
-            </div>
-
-    <div class="box">
-            <img src="images/cake9.jpg">
-            </div>
-</div>
-
-<div class="container">
-    <div class="box">
-    <img src="images/cake10.jpg">
-</div>
-
-<div class="box">
-    <img src="images/cake11.jpg">
-</div>
-
-<div class="box">
-    <img src="images/cake12.jpg">
-    </div>
-    
-<div class="box">
-        <img src="images/cake13.jpg">
-        </div>
-
-<div class="box">
-        <img src="images/cake14.jpg">
-        </div>
-
-        
-
-</div>
+    </div>  
    
+    <div class="flex-container-1">
+        <div style="flex: 1"  class="StackMe"><img src="images/cake20.jpg" width="200" height="200"></div>
+        <div style="flex: 1" class="StackMe"><img src="images/cake21.jpg" width="200" height="200"></div>
+        <div style="flex: 1" class="StackMe"><img src="images/cake22.jpg" width="200" height="200"></div>
+        <div style="flex: 1" class="StackMe"><img src="images/cake19.jpg" width="200" height="200"></div>
+    </div>  
+    
+    <div class="flex-container-1">
+        <div style="flex: 1"  class="StackMe"><img src="images/cake15.jpg" width="200" height="200"></div>
+        <div style="flex: 1" class="StackMe"><img src="images/cake13.jpg" width="200" height="200"></div>
+        <div style="flex: 1" class="StackMe"><img src="images/cake17.jpg" width="200" height="200"></div>
+        <div style="flex: 1" class="StackMe"><img src="images/cake8.jpg" width="200" height="200"></div>
+    </div> 
 
+
+    <div class="flex-container-1">
+        <div style="flex: 1"  class="StackMe"><img src="images/cake9.jpg" width="200" height="200"></div>
+        <div style="flex: 1" class="StackMe"><img src="images/cake10.jpg" width="200" height="200"></div>
+        <div style="flex: 1" class="StackMe"><img src="images/cake11.jpg" width="200" height="200"></div>
+        <div style="flex: 1" class="StackMe"><img src="images/cake12.jpg" width="200" height="200"></div>
+    </div> 
 
 <img src="images/advertisement1.jpg" alt="banner image" class="imgMain" style="margin-left: auto;">
  
