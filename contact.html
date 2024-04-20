@@ -18,7 +18,20 @@
 
         <style>
 
+.container-9 {
+	background: #78b6bb;
+	width: 90%;
+	max-width: 700px;
+    justify-content: center;
+    margin: 10%;
+    margin-left: 150px;
+    padding-top: 1%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top:20px;
+    margin-bottom: 20px;
 
+}
 
         </style>
         
@@ -52,33 +65,30 @@
         <h3>Follow us <a href="https://www.instagram.com/baked_bites_by_bel/?igsh=MWV0ZWZxdTk1Nmw5YQ%3D%3D">here</a> to receive exclusive offers, new flavor announcements and a free cake on your birthday!</h3>
        
         
-        
-
-    
-            
+         
        <div class="container-1">
-        <div class="box-1>"> <img src="images/occasion01.png" alt="advertisement banner" width="200" height="200">
-            <p>Apple Cherry Flavor</p>
+        <div class="box-1>"> <img src="images/occasion01.png" alt="advertisement banner" width="180" height="180">
+            
         </div>
         
         <div class="box-2">
-            <img src="images/occasion02.png" alt="advertisement banner" width="200" height="200">
-            <p>Mango Blueberry Flavor</p>
+            <img src="images/occasion02.png" alt="advertisement banner" width="180" height="180">
+            
             </div>
     
         <div class="box-3">
-            <img src="images/occasion03.png" alt="advertisement banner" width="200" height="200">
-            <p>Avocado Peach Flavor</p>  
+            <img src="images/occasion03.png" alt="advertisement banner" width="180" height="180">
+            
         </div>
     
         <div class="box-3">
-            <img src="images/occasion04.png" alt="advertisement banner" width="200" height="200">
-            <p>Banana Pineapple Flavor</p>  
+            <img src="images/occasion04.png" alt="advertisement banner" width="180" height="180">
+            
         </div>
         
         <div class="box-3">
-            <img src="images/occasion05.png" alt="advertisement banner" width="200" height="200">
-            <p>Lemon Grape Flavor</p>  
+            <img src="images/occasion05.png" alt="advertisement banner" width="180" height="180">
+             
         </div>
     </div><br><br>
 
@@ -86,89 +96,69 @@
     <div class="flex-container-1">
         <div style="flex: 1"  class="StackMe"><h3 style="color: rgb(36, 66, 151);">Where to Find Us</h3>
     
-<h3>6326 Sovereign Dr, Suite217, San Antonio, TX 78229 <br>
-    210-460-0940 <br>bakedbitesbybel@gmail.com</h3>
+<h3 style="color:rgb(255, 0, 98)">6326 Sovereign Dr, Suite217, San Antonio, TX 78229 <br><br>
+    210-460-0940 | bakedbitesbybel@gmail.com</h3>
      </div><br><br>
 
-     If you have any questions about our offer, please contact us by filling out the form below and we
+     <b font="green">If you have any questions about our offer, please contact us by filling out the form below and we
     will get in touch with you shortly. Alternatively, you can give us a call or even drop by and visit us –
-    we hope to see you soon!<br><br>
+    we hope to see you soon!</b><br>
 
-    <h3 style="color: rgb(32, 58, 145);">Baked-Bites-By-Bel Cake Delivery Form</h3><br>
+   
 
+ 
 
-    <form>
-        <table>
-                <tr>
-                    <td>
-                        Name:
-                    </td>
+<div class="container-9">
+<form action="" method="post">
 
-                <td>
-                    <input type="text" placeholder="Name" name="">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Email:
-                </td>
+    <label for="name">Customer Name:</label>
+    <input type="text" id="name" placeholder="name" minlength="6"  maxlength="15" required><br>
 
-                <td>
-                    <input type="Email" placeholder="Email" name="">
-                </td>
-                
-            </tr>
+    <label for="password">Password:</label>
+    <input type="password" id="password"><br><br>
 
-            <tr>
-                <td>
-                    Order:
-                </td>
-                <td>
-                    <input type="radio" name="Gender"> Pick Up
-                    <input type="radio" name="Gender"> Delivery
-                </td>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="******@gmail.com"><br><br>
 
-            </tr>
+    <label for="phone">Phone #:</label>
+    <input type="tel" id="phone" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
 
-            <tr>
-                <td>
-                    Flavour
-                </td>
+    <label for="pday">Date:</label>
+    <input type="date" id="pday"><br><br>
 
-            </tr>
+    <label for="flavor"><b>Choose a Flavor:</b></label>
+    <select name="flavor" id="flavor">
+      <option value="Mango">Mango Apple Flavor</option>
+      <option value="Cherry">Cherry Grape Apple Flavor</option>
+      <option value="Banana">Banana Strawberry Apple Flavor</option>
+      <option value="Orange">Watermelon Orange Flavor</option>
+      <option value="Grape">Pineapple Grape Flavor Flavor</option>
+    </select>
 
-                <td>
-                    <input type="text" placeholder="">
-                </td>
-            </tr>
+    <label for="quantity"><b>Quantity:</b></label>
+    <input type="number" id="quantity" min="0" max="99" value="1"><br><br>
 
-            <tr>
-                <td>
-                    Phone Number:
-                </td>
-            </tr>
+    
+    <label for="order"><b>Order:</b></label>
+    <input type="radio" id="Order" value="Pick Up" name="title">
+    <label for="Ms.">Pick Up</label>
+    <input type="radio" id="Ms." value="Ms." name="title">
+    <label for="PhD.">Delivery</label>
+    <br><br>
 
-                <td>
-                <input type="Phone" placeholder="42288*****" name="">
-                </td>
-            </tr>
-                <tr>
-                    <td>
-                        <input type="submit" value="Submit" name="">
-                    </td>
+    <label for="subscribe">Subscribe:</label>
+    <input type="checkbox" id="subscribe"><br>
 
-                </tr>
-            </table>
+    <label for="comment">Comment:</label>
+    <textarea id="comment" rows="3" cols="25"></textarea><br>
 
-        </table>
+    
 
+    <input type="reset"><br>
+    <input type="submit" value="Submit" name="">
 
-    </form><br><br>
-
-
-
-        
-     
+</form></div>
+   
 
     </div> 
     <footer>   
